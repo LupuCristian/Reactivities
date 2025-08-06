@@ -12,4 +12,6 @@ public class User : IdentityUser
 
     //nav props
     public ICollection<ActivityAttendee> Activities { get; set; } = [];
+
+    public ICollection<Photo> Photos { get; set; } = [];
 }
